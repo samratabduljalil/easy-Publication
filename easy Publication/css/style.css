@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* width: 1200px; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.dash-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash-left {
+    background: #6f9c5b;
+    width: 250px;
+    height: 840px;
+}
+
+.dash-right {
+    /* width: 950px; */
+    flex-grow: 1;
+}
+
+.dash-left-content {
+    margin-top: 20px;
+}
+
+.dash-left-content .profile {
+    text-align: center;
+}
+
+.dash-left-content .profile img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.dash-left-content .profile-content {
+    padding-top: 17px;
+}
+
+.dash-left-content .text p i {
+    padding-right: 10px;
+}
+
+.dash-left-content .text-name p {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 41px;
+    padding-top: 5px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.dash-left-content .text-main p {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.dash-left-content .text p {
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.dash-left-content .icon i {
+    color: aliceblue;
+    font-size: 17px;
+    line-height: 30px;
+    padding-right: 10px;
+}
+
+.dash-left-content .order {
+    text-transform: capitalize;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash-right-content .logo {
+    height: 100px;
+    background: #064635;
+}
+
+.dash-right-content .logo h3 {
+    line-height: 50px;
+    padding-left: 30px;
+}
