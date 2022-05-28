@@ -1,5 +1,5 @@
 # easy-Publication
-easy-Publication.
+Easy-Publication.
 
 It's an easy and hassle-free self-publishing platform where anyone can publish anything under the terms & conditions. If the published book is sold then we will share the revenue with our registered publishers.
 
